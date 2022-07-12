@@ -1,0 +1,263 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainCard{
+  width: 20vw;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0,0.5);
+  font-size: 1.5vw;
+  padding: 2%;
+  margin: 1.5vw;
+  border-radius: 1vw;
+}
+
+.specialDiscountcard{
+  cursor: pointer;
+  width: 50vw;
+  height: 2.5vw;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0,0.5);
+  font-size: 1.5vw;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  display: inline-block;
+}
+.hollowbtnblack{
+  cursor: pointer;
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 12vw;
+  font-size: 1vw;
+  padding: 5px;
+  color: black;
+}
+.darkbtn{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+  width: 6vw;
+  font-size: 1vw;
+  padding: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+.buton1{
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid blueviolet;
+  width: 12vw;
+  font-size: 1vw;
+  padding: 5px;
+  color: blueviolet;
+}
+.buton2{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin: 5%;
+}
+.termsBtn{
+  cursor: pointer;
+  color: gray;
+  font-size: 1vw;
+}
+.questions{
+  width: 50vw;
+  font-size: 2vw;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+}
+.centerquestions{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.getStarted{
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: black;
+  width: 20%;
+  font-size: .8rem;
+  padding: 15px;
+  color: white;
+  margin-bottom: 15px;
+  margin: 1%;
+}
+.seOtherplan{
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  width: 20%;
+  margin: 1%;
+  font-size: .8rem;
+  padding: 15px;
+  color: white;
+}
+.getMini{
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: white;
+  width: 20%;
+  margin: 1%;
+  font-size: .8rem;
+  padding: 10px;
+  color: black;
+}
+.btnParent{
+  flex-direction:row;
+  display:flex;
+  justify-content: center;
+  align-content: inline-block;
+  margin:1%
+
+}
+.navBtns{
+
+  font-size:10px;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  width:30vw;
+  padding-right: 10%;
+  font-size: 1.2vw;
+}
+.navBtns p{
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width:700px) {
+  .questions{
+    cursor: pointer;
+    width: 50vw;
+    font-size: 3vw;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+  }
+ 
+
+  .unavs{
+    vertical-align: middle;
+    width:100%;
+    height:4%;
+    background-color:black;
+    display:flex;
+    justify-content:space-between
+  }
+  .unavlogo{
+    width: 10vw;
+    vertical-align: middle;
+    text-decoration:none;
+    color:white;
+    float : left
+  }
+  .btnParent{
+    flex-direction:column;
+    display:flex
+  }
+  .getMini{
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    width: 90%;
+    margin: 1%;
+    font-size: .8rem;
+    padding: 15px;
+    color: black;
+  }
+  .getStarted{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: black;
+    width: 90%;
+    margin: 4%;
+    font-size: .6rem;
+    padding: 15px;
+    color: white;
+    margin-bottom: -5px;
+  }
+  .seOtherplan{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 90%;
+    margin: 4%;
+    font-size: .6rem;
+    padding: 15px;
+    color: white;
+   
+  }
+}
+
+.unavs{
+  vertical-align: middle;
+  width:100%;
+  height:4%;
+  background-color:black;
+  display:flex;
+  justify-content:space-around
+}
+.spotifylogoUper{
+  cursor: pointer;
+  width:100%;
+  padding-left:100px
+}
+.unavbtns{
+  text-decoration:none;
+  color:white
+}
+.unavlogo{
+  width: 10vw;
+  vertical-align: middle;
+  text-decoration:none;
+  color:white
+}

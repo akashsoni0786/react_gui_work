@@ -1,0 +1,119 @@
+.fheading{
+    font-size:18px;
+    cursor: pointer;
+    color: gray;
+    text-transform: uppercase;
+}
+.fsublink{
+    font-size: 18px;
+    cursor: pointer
+}
+.langs{
+    display:flex;
+    flex-direction: column;
+    width:180px;
+    margin-left:4%;
+    font-size:10px;
+    margin-top: 100px;
+}
+.downContent{
+    text-align:left;
+    flex-direction: column;
+    display:flex;
+    justify-content:space-between;
+    height:80px;
+    margin-left:30px;
+    /* font-size:12px; */
+}
+.langparent{
+   display:flex;
+   flex-direction: row;
+   width:100%;
+   align-items: center;
+   justify-content:space-between
+}
+.downlinks{
+    margin-top: 140px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:280px;
+    margin-left:4%;
+    font-size:12px;    
+    cursor: pointer;
+    color: gray;
+}
+.parentlevel2{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:200px;
+    margin-left:4%;
+
+}
+.parentlevel1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:4%;
+    margin-right:4%;
+    flex-wrap:wrap
+}
+.logodownNav{
+    height:3vw;
+    cursor: pointer
+}
+.logoparent{
+    width: 20vw;
+    
+}
+.fbinsta{
+    padding: 5px;
+    cursor: pointer;
+    width:4vw;
+    height:2.5vw;
+    /* flex: start; */
+    /* margin-left:100px */
+}
+.fbinstaparent{
+    text-align:left;
+    flex-direction: row;
+    display:flex;
+    top:0;
+    flex-wrap:wrap;
+    /* margin-left:150px */
+}
+@media screen and (max-width:760px) {
+    .fbinstaparent
+    {
+        margin-left: 35px;
+
+    }
+    .logoparent{
+        width: 40vw;
+        align-items: flex-start;
+    }
+    .logodownNav
+    {
+        cursor: pointer;
+        padding-left:10px;
+        width: 50%;
+        height: 75%;
+        
+    }
+    .parentlevel1{
+        display:flex;
+        flex-direction: column;
+        /* margin-left:4%; */
+    }
+    .parentlevel2
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height:500px;
+        /* margin-left:4%; */
+    }
+ 
+    
+}
