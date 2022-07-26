@@ -1,27 +1,33 @@
-import React from 'react'
 import './App.css';
-const Question = () => {
-  return (
-    <div>
-        <div>
-            <h1>Questions</h1>
-            <p>We've got answers</p>
-            <div className='centerquestions'>
-            <Ques1 />
-            <Ques1 />
-            <Ques1 />
-            <Ques1 />
-            <Ques1 />
-            <Ques1 />
-            </div>
-            
-        </div>
-    </div>
-  )
+import React, { Component } from 'react'
+
+class Question extends Component {
+  render() {
+    return (
+      <div>
+          <div>
+              <h1>Questions</h1>
+              <p>We've got answers</p>
+              <div className='centerquestions'>
+              <Ques1 />
+              <Ques1 />
+              <Ques1 />
+              <Ques1 />
+              <Ques1 />
+              <Ques1 />
+              </div>
+              
+          </div>
+      </div>
+    )
+  }
 }
 
-export const Ques1 = () => {
-  return (
+
+
+  export class Ques1 extends Component {
+    render() {
+      return(
     <div >
         <div className='questions'>
         <h5 style={{cursor: 'pointer'}}>What is Spotify and Spotify Premium?</h5>
@@ -30,6 +36,7 @@ export const Ques1 = () => {
        <hr />
     </div>
   )
+    }
 }
 
 
