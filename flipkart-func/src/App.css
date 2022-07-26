@@ -139,3 +139,64 @@
   display: inline-block;
 }
 }
+.carousel-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.multi-carousel
+{
+    padding: 0% 2%;
+    width: 80%;
+}
+
+
+.ad_div
+{
+    padding: 2% 1% 0% 0%;
+    width: 20%;
+}
+
+
+
+.timeLeft
+{
+    color: black;
+    opacity: 65%;
+}
+
+.carouselHeader
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.span1
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.span2
+{
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.span3
+{
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 75%;
+}
+
+.carousel-item
+{
+    text-align: center;
+}
+

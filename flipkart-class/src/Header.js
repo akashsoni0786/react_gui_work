@@ -20,7 +20,7 @@ export class Header extends React.Component {
                 <li className="nav-item ">
                 <div className="d-flex">
                 <input className="form-control me-2 position-relative" type="search" placeholder="Search" aria-label="Search"/>
-                <i  className="bi bi-search text-primary position-absolute searchIcon"></i>
+                {/* <i  className="bi bi-search text-primary position-absolute searchIcon"></i> */}
             
           </div>
                 </li>

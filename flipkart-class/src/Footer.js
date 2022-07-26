@@ -1,75 +1,169 @@
 import React from 'react'
 export const Footer = () => {
-  return (
-    <>
-    <div className="container-fluid mt-3">
-    <div className="row">
-        <div className="col-sm-10">
-        <div>
-            <div className="float-start">
-            <h6>Deals of the Day <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/timer_a73398.svg" alt="img1" /><span>23:10:50 Left</span></h6>
-            </div>
-            <div className="float-end">
-            <button className=" btn btn-text-center bg-primary text-light">VIEW ALL</button>
-            </div>
-        </div>
-        <br />
-        <div className="row w-100">
-            <div className=" d-flex justify-content-between text-center">
-            <div>
-                <img className="btn" src="https://rukminim1.flixcart.com/image/200/200/kt1u3rk0/tablet/t/j/t/rmp2103-realme-original-imag6h83yvtku7ec.jpeg?q=70" alt="product1" />
-                <div>
-                <p className="h-6">Apple tablet</p>
-                <p className="small text-success">From Rs.100000</p>
-                <p className="text-secondary">Best Selling Prices</p>
-                </div>
-            </div>
-            <div>
-                <img className="btn" src="https://rukminim1.flixcart.com/image/200/200/kt1u3rk0/tablet/t/j/t/rmp2103-realme-original-imag6h83yvtku7ec.jpeg?q=70" alt="product1" />
-                <div>
-                <p className="h-6">Apple tablet</p>
-                <p className="small text-success">From Rs.100000</p>
-                <p className="text-secondary">Best Selling Prices</p>
-                </div>
-            </div>
-            <div>
-                <img className="btn" src="https://rukminim1.flixcart.com/image/200/200/kt1u3rk0/tablet/t/j/t/rmp2103-realme-original-imag6h83yvtku7ec.jpeg?q=70" alt="product1" />
-                <div>
-                <p className="h-6">Apple tablet</p>
-                <p className="small text-success">From Rs.100000</p>
-                <p className="text-secondary">Best Selling Prices</p>
-                </div>
-            </div>
-            <div>
-                <img className="btn" src="https://rukminim1.flixcart.com/image/200/200/kt1u3rk0/tablet/t/j/t/rmp2103-realme-original-imag6h83yvtku7ec.jpeg?q=70" alt="product1" />
-                <div>
-                <p className="h-6">Apple tablet</p>
-                <p className="small text-success">From Rs.100000</p>
-                <p className="text-secondary">Best Selling Prices</p>
-                </div>
-            </div>
-            <div>
-                <img className="btn" src="https://rukminim1.flixcart.com/image/200/200/kt1u3rk0/tablet/t/j/t/rmp2103-realme-original-imag6h83yvtku7ec.jpeg?q=70" alt="product1" />
-                <div>
-                <p className="h-6">Apple tablet</p>
-                <p className="small text-success">From Rs.100000</p>
-                <p className="text-secondary">Best Selling Prices</p>
-                </div>
-            </div>
-            <div className="mt-5">
-                <button className="btn bg-muted" style={{marginLeft: '150%', border: '1px solid gray', paddingTop: '35%', paddingBottom: '35%'}}><span class="bi bi-arrow-right"></span></button>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div className="col-sm-2">
-        <img className="btn" src="https://rukminim1.flixcart.com/flap/464/708/image/4320f8ddf74eb318.jpeg?q=70" alt="product6" style={{width: '100%', height: '94%'}} />
-        </div>
-    </div>
-    </div>
+    return (
+        <>
 
+        <div className='carousel-container d-flex justify-space-between'>
+            <div className='multi-carousel mt-4'>
+                <div className='carouselHeader'>
+
+                    <div className='timeDiv'>
+                        <span className='fw-bolder'>Deals Of The Day</span>
+                        <span className='clockImg'><img src="./clock.png" alt="" /></span>
+                        <span className='timeLeft'>23 : 10 : 50 left</span>
+                    </div>
+
+                    <div className='viewAllDiv'>
+
+                        <button type="button" className='btn btn-primary viewAll-btn'>View All</button>
+
+                    </div>
+
+                </div>
+                <hr />
+                <div id="carouselExampleControls1" className="carousel slide mt-3" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-3 colDiv">
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+                                </div>
+                                <div class="col-sm-3 colDiv">
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+                                </div>
+                                <div class="col-sm-3 colDiv">
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+                                </div>
+                                <div class="col-sm-3 colDiv">
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3 colDiv">
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div className="carousel-item">
+
+                            <div class="row">
+
+
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+
+                                </div>
+
+                                <div class="col-sm-3 colDiv">
+
+                                    <img src="https://rukminim1.flixcart.com/image/200/200/kit6hzk0-0/tracing-wheel/l/i/d/tx-rw-leather-edition-official-xbox-one-licensed-thrustmaster-original-imafygqym3zmf8j3.jpeg?q=70" className="img-fluid" alt="..." /><br />
+
+                                    <span className='span1'>Gaming material...</span><br />
+                                    <span className='span2'>Upto 70% Off</span><br />
+                                    <span className='span3'>Grab the Best Deal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="ad_div">
+                <img src="https://rukminim1.flixcart.com/flap/464/708/image/b96c3d71baebb419.jpeg?q=70" alt="" className='img-fluid' />
+            </div>
+        </div>
     </>
-  )
+    )
 }
 
 export default Footer;

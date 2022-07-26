@@ -11,7 +11,7 @@ function App() {
        <Header />
        <HeaderOptions />
        <Carousels />
-       <br />
+       {/* <br /> */}
        <Footer />
     </div>
   );
